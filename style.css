@@ -1,0 +1,390 @@
+.navbar {
+    background-color: #fff; /* Set your desired background color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Set your desired logo color */
+}
+
+.navbar-search {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.navbar-search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.navbar-search button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px;
+    border-bottom: 2px solid transparent; /* Add underline on hover */
+}
+
+.navbar-links a:hover {
+    border-bottom: 2px solid #007bff; /* Set your desired hover color */
+}
+
+.navbar-cart {
+    position: relative;
+}
+
+.navbar-cart a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar-cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}
+.product-page {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-images {
+    display: flex;
+    flex-direction: column;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.product-images img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-rating span {
+    margin-right: 5px;
+    color: #ff9900; /* Set your desired rating color */
+}
+
+.product-description {
+    margin-bottom: 20px;
+}
+
+.product-actions {
+    display: flex;
+    align-items: center;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.product-quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.product-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.similar-items {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.similar-items h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.view-all {
+    text-decoration: none;
+    color: #007bff;
+    float: right;
+}
+
+.item-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on mobile */
+}
+
+.item {
+    flex: 0 0 auto;
+    width: 250px; /* Adjust width as needed */
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item-info {
+    padding: 10px;
+}
+
+.item-info h4 {
+    margin: 0;
+}
+
+.item-info p {
+    margin: 5px 0;
+}
+
+.favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigation button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .feature h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .feature p {
+    font-size: 14px;
+    color: #999;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    margin-bottom: 10px;
+}
+
+.text-container form {
+    display: flex;
+    align-items: center;
+}
+
+.text-container input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.text-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-section img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-section i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-container {
+    position: relative;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .search-input.active {
+    width: 300px;
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* ... other styles for nav-links, nav-categories, buttons, etc. */
